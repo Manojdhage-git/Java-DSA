@@ -1,3 +1,5 @@
+package Arrays;
+
 // #Arrays#
 // list of elements of the same type placed in a contiguous memory location
 // Array is a collection of similar data types
