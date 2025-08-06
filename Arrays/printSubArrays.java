@@ -22,6 +22,8 @@ public class printSubArrays {
     
     public static void main(String[] args) {
         int nuumbers[] = {2, 4, 6, 8, 10};
+
+        printSubArrays(nuumbers);
         
     }
 }
