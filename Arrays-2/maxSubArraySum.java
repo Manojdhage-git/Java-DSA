@@ -26,6 +26,11 @@ public class maxSubArraySum {
     public static void main(String[] args) {
        int numbers[] = {1, -2, 3, 4, -5, 8};
        maxSubArraySum(numbers);
+
+      //  Explaination of all code - sum is calculated by taking all possible subarrays and checking their sum.
+       //  The maximum sum is updated whenever a larger sum is found.
+       //  This approach has a time complexity of O(n^3) due to the nested loops.
+        //  For a more efficient solution, we can use Kadane's algorithm which has a time complexity of O(n).
     }
 
  
