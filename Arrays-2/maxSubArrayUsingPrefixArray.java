@@ -24,9 +24,22 @@ public class maxSubArrayUsingPrefixArray {
         System.out.println("Maximum Subarray Sum: " + maxSum);
     }
 
+    // dryrun of the code
+    // Given the array: {1, -2, 3, 4, -5, 8}
+    // The prefix sum array will be: {1, -1, 2, 6, 1, 9}
+    // The maximum subarray sum will be calculated as follows:          
+
     public static void main(String[] args) {
         int numbers[] = {1, -2, 3, 4, -5, 8};
         maxSubArrayUsingPrefixArray(numbers);
+
+        // this program calculates the maximum subarray sum using a prefix sum array.
+        // It iterates through all possible subarrays and computes their sums using the prefix sum array
+        // to find the maximum sum efficiently.
+        // The time complexity is O(n^2) due to the nested loops, but it can be optimized further.
+        // The prefix sum array allows for quick calculation of subarray sums.  
+        // Note: This implementation is not the most efficient for large arrays.
+        // For larger datasets, consider using Kadane's algorithm for O(n) complexity.
 
     }
 }
